@@ -4,12 +4,12 @@
     "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\1-PortfolioAPI.csproj": {}
   },
   "projects": {
-    "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj": {
+    "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj",
-        "projectName": "3-Application",
-        "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj",
+        "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\lashg\\.nuget\\packages\\",
         "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\obj\\",
         "projectStyle": "PackageReference",
@@ -118,12 +118,12 @@
         }
       }
     },
-    "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj": {
+    "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj",
-        "projectName": "2-Infrastructure",
-        "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj",
+        "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\lashg\\.nuget\\packages\\",
         "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -142,8 +142,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj": {
-                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj"
+              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj": {
+                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj"
               },
               "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj"
@@ -210,11 +210,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj": {
-                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj"
+              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj": {
+                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj"
               },
-              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj": {
-                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj"
+              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

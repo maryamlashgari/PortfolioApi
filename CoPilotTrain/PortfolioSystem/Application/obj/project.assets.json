@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj",
-      "projectName": "3-Application",
-      "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj",
+      "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\lashg\\.nuget\\packages\\",
       "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\obj\\",
       "projectStyle": "PackageReference",

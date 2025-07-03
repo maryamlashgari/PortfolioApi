@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iq+6pmjgeg3jrD1O8BlTjLiyrpMVJOAKC6rXMfNlTNRONEnGaKDVHOJQ6oLMtg0TO4A5h7Z3Jbp53fSDgmzEZA==",
+  "dgSpecHash": "9txXj057jjNGDfq8KcxglIU3BYGO8nVY15W2isV4zJFeUzRd/QAwXnB/sFhJ9FkxJaYu3jDtHHYgdehBHqCWIg==",
   "success": true,
-  "projectFilePath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\1-PortfolioAPI.csproj",
+  "projectFilePath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\PortfolioAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lashg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\lashg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

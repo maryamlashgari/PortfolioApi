@@ -1134,32 +1134,17 @@
           }
         }
       },
-      "2-Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "3-Application": "1.0.0",
-          "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
-        },
-        "compile": {
-          "bin/placeholder/2-Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/2-Infrastructure.dll": {}
-        }
-      },
-      "3-Application/1.0.0": {
+      "Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/3-Application.dll": {}
+          "bin/placeholder/Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/3-Application.dll": {}
+          "bin/placeholder/Application.dll": {}
         }
       },
       "Domain/1.0.0": {
@@ -1170,6 +1155,21 @@
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Application": "1.0.0",
+          "Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
         }
       }
     }
@@ -3657,26 +3657,26 @@
         "version.txt"
       ]
     },
-    "2-Infrastructure/1.0.0": {
+    "Application/1.0.0": {
       "type": "project",
-      "path": "../Infrastructure/2-Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/2-Infrastructure.csproj"
-    },
-    "3-Application/1.0.0": {
-      "type": "project",
-      "path": "../Application/3-Application.csproj",
-      "msbuildProject": "../Application/3-Application.csproj"
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "2-Infrastructure >= 1.0.0",
-      "3-Application >= 1.0.0",
+      "Application >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -3687,9 +3687,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\1-PortfolioAPI.csproj",
-      "projectName": "1-PortfolioAPI",
-      "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\1-PortfolioAPI.csproj",
+      "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\PortfolioAPI.csproj",
+      "projectName": "PortfolioAPI",
+      "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\PortfolioAPI.csproj",
       "packagesPath": "C:\\Users\\lashg\\.nuget\\packages\\",
       "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\PortfolioAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -3708,11 +3708,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj": {
-              "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\3-Application.csproj"
+            "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj": {
+              "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\Application.csproj"
             },
-            "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj": {
-              "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\2-Infrastructure.csproj"
+            "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
