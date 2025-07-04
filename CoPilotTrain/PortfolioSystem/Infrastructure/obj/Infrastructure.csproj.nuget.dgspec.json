@@ -73,10 +73,10 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj",
-        "projectName": "Application",
+        "projectName": "Domain",
         "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\lashg\\.nuget\\packages\\",
-        "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\obj\\",
+        "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lashg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,11 +92,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

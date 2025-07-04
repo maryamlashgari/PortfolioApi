@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "PtvLRx4dvUz1kdSYFEKFv/xxLO/zpobDorxZC2i9wjXzLm/c6G5qX1t8SWi7Yt5gjYG3BFwinuqO8uk7Nc/nZg==",
-  "success": false,
+  "dgSpecHash": "VThCZ9OP3/0PvoeuKXHPR6eQrTN/FZjbGpeRSjhjzYapIgQ6zG5mtU8DV3M18HeUG+DAkMIRm2YHtBTFeHD04Q==",
+  "success": true,
   "projectFilePath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lashg\\.nuget\\packages\\automapper\\15.0.0\\automapper.15.0.0.nupkg.sha512",
@@ -74,15 +74,5 @@
     "C:\\Users\\lashg\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\lashg\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Infrastructure -> Application -> Application.",
-      "libraryId": "Application",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
