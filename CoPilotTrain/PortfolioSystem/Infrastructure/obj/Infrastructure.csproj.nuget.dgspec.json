@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -67,10 +73,10 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj",
-        "projectName": "Domain",
+        "projectName": "Application",
         "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\lashg\\.nuget\\packages\\",
-        "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\obj\\",
+        "outputPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lashg\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,7 +92,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Learn\\Tir1404\\CoPilotTrain\\PortfolioSystem\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -162,6 +172,12 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             }

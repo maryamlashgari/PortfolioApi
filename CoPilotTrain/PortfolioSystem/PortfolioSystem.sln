@@ -20,6 +20,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-EndPoint", "3-EndPoint", "{FD429C67-5614-4CF8-9C0A-AA5A15DEDCB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{CDBBC624-CAE9-49E1-835E-BCDC3469712C}"
+	ProjectSection(SolutionItems) = preProject
+		Document\DEVLOG.md = Document\DEVLOG.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

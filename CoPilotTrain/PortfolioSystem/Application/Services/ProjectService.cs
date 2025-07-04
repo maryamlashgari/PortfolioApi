@@ -1,5 +1,6 @@
 ﻿using Application.DTOs;
 using Application.Interfaces;
+using Application.Mappers;
 
 namespace Application.Services
 {
@@ -13,7 +14,7 @@ namespace Application.Services
 
         public async Task CreateAsync(ProjectDto dto)
         {
-            _projectRepository.AddAsync(dto);
+            await _projectRepository.AddAsync(ProjectMapper.ToEntity(dto));
         }
     }
 }
